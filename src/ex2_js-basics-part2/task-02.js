@@ -3,5 +3,6 @@ function outputOfArrayElements(array) {
     console.log(array[i]);
   }
   console.log(`The number of elements in the array is ${array.length}`);
+  return;
 }
 module.exports = outputOfArrayElements;
