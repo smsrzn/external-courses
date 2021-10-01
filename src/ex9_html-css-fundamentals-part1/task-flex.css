@@ -7,13 +7,11 @@ header {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 70% 30%;
+    display: flex;
 }
 
 section {
     background: lightgreen;
-    float: left;
 }
 
 article {
@@ -23,7 +21,6 @@ article {
 
 aside {
     background: pink;
-    float: right;
 }
 
 header, article, section, .module {

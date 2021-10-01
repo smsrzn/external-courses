@@ -13,7 +13,6 @@ main {
 
 section {
     background: lightgreen;
-    float: left;
 }
 
 article {
@@ -23,7 +22,6 @@ article {
 
 aside {
     background: pink;
-    float: right;
 }
 
 header, article, section, .module {

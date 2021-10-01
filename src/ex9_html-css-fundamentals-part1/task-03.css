@@ -11,21 +11,17 @@
     height: 57px;
     width: 234px;
     display: block;
-    z-index: 1;
-    position: relative;
     border: 2px solid rgb(177, 177, 177);
     background: linear-gradient(to bottom, rgba(221, 221, 221, 1) 0%, rgba(210, 210, 210, 1) 50%, rgba(174, 174, 174, 1) 100%);
-    left: 3px;
-    top: 0px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 0px 7px rgb(203, 203, 203);
+    margin: 7px 0px 0px 2px;
+    box-shadow: 1px 1px 0px 1px rgb(116, 116, 116), 0px 0px 0px 7px rgb(203, 203, 203);
 }
 
 .checkout {
-    position: absolute;
-    z-index: 1;
-    bottom: 502px;
-    left: 71px;
+    position: relative;
+    bottom: 50px;
+    left: 26px;
     font-size: 23px;
     font-weight: bold;
     color: rgb(85, 85, 85);
@@ -34,20 +30,18 @@
 
 .leftStar {
     zoom: 2;
-    position: absolute;
-    z-index: 1;
-    bottom: 250px;
-    right: 197px;
+    position: relative;
+    bottom: 25px;
+    right: 69px;
     color: rgb(136, 136, 136);
     text-shadow: 0px 0.5px 0px rgb(256, 256, 256);
 }
 
 .rightStar {
     zoom: 2;
-    position: absolute;
-    z-index: 1;
-    bottom: 250px;
-    right: 110px;
+    position: relative;
+    bottom: 25px;
+    left: 3px;
     color: rgb(136, 136, 136);
     text-shadow: 0px 0.5px 0px rgb(256, 256, 256);
 }

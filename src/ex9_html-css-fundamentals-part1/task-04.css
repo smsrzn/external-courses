@@ -62,8 +62,3 @@
     left: 12px;
     top: 12px;
 }
-
-main {
-    display: flex;
-    justify-content: flex-start;
-}
