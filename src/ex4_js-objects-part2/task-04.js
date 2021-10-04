@@ -1,4 +1,5 @@
-function toUpperCase(string) {
+function firstCharToUpperCase(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
-module.exports = toUpperCase;
+
+module.exports = firstCharToUpperCase;
