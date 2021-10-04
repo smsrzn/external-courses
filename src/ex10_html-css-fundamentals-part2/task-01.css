@@ -1,0 +1,7 @@
+.round {
+    border-radius: 50%;
+}
+
+.diamond {
+    clip-path: polygon(80% 0, 100% 35%, 50% 100%, 0 35%, 20% 0);
+}

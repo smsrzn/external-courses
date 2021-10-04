@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>task-02</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <form action="http://httpbin.org/post" method="POST">
+      <fieldset>
+        <legend>Personal data</legend>
+
+        <label>Surname</label>
+        <input type="text" />
+        <br /><br />
+
+        <label>First Name</label>
+        <input type="text" />
+        <br /><br />
+
+        <label>Middle name</label>
+        <input type="text" />
+        <br /><br />
+
+        <label>You are </label>
+        <input type="radio" />male <input type="radio" />female <br /><br />
+
+        <label>Age</label>
+        <input type="number" min="18" max="101" />
+        <br /><br />
+
+        <label>Country of Residence</label>
+        <select style="width: 70px"></select>
+        <br /><br />
+
+        <label>City</label>
+        <input type="checkbox" />Ryazan <input type="checkbox" />Moscow
+        <br /><br />
+
+        <label>Photography</label>
+        <input type="file" />
+        <br />
+        <hr />
+
+        <label>Title</label>
+        <select size="8" multiple>
+          <optgroup label="Technologies">
+            <option>Web Master</option>
+            <option>Database Administrator</option>
+            <option>Computer-aided design</option>
+          </optgroup>
+          <optgroup label="Finance">
+            <option>Economic Planning</option>
+            <option>Management accounting</option>
+            <option>Budgeting and planning</option>
+          </optgroup>
+        </select>
+        <br /><br />
+
+        <label>Salary</label>
+        <input type="range" />
+        <br /><br />
+
+        <textarea rows="14" cols="50">Tell us about yourself...</textarea>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <label>Site</label>
+        <input type="url" />
+        <br /><br />
+
+        <label>Email</label>
+        <input type="email" />
+        <br /><br />
+
+        <label>Phone</label>
+        <input type="tel" />
+        <br />
+      </fieldset>
+      <br />
+
+      <label>Password</label>
+      <input type="password" required />
+      <br /><br />
+
+      <button type="submit">Отправить</button>
+      <button type="reset">Сбросить</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+table {
+    font-family: 'FontFont';
+    text-align: center;
+    color: #938a9e;
+}
+
+#head {
+    text-transform: uppercase;
+    background: #e3eaf3;
+    text-align: center;
+}
