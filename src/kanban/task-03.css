@@ -1,3 +1,10 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -44,6 +51,14 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(https://i.ibb.co/qBvrsT6/user-menu.png);
+}
+
+main {
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    height: calc(100% - 125px);
+    background-color: #0079bf;
+    padding: 20px;
 }
 
 footer {
