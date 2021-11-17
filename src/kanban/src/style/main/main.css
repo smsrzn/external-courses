@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.main {
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    height: calc(100% - 177px);
+    background-color: #0079bf;
+    padding: 20px;
+}
+
+.kanban {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
