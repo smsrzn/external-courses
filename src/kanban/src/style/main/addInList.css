@@ -1,0 +1,33 @@
+.add {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E6C84;
+    background-image: url(https://i.ibb.co/qCbzDhz/add-card.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.add:hover {
+    cursor: pointer;
+    color: #0079bf;
+    background-image: url(https://i.ibb.co/txP4czd/add-card.png);
+}
+
+.add.disable {
+    cursor: default;
+    opacity: 0.3;
+}
+
+.add.disable:hover {
+    cursor: default;
+    opacity: 0.3;
+    color: #5E6C84;
+    background-image: url(https://i.ibb.co/qCbzDhz/add-card.png);
+}
