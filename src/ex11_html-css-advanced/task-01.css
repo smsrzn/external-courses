@@ -1,0 +1,91 @@
+.loader {
+    border: 5px solid gray;
+    border-top: 5px solid red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: loader 2s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.border {
+    top: 30px;
+    width: 350px;
+    height: 100px;
+    position: relative;
+    border-left: 50px solid black;
+    border-right: 50px solid black;
+}
+
+.ball {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 250px
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.animation {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+    animation: steps 5s infinite linear;
+}
+
+@keyframes steps {
+    0% {
+        border-radius: 50%;
+        background: linear-gradient(85deg, #fb63f9, #c2e534);
+    }
+
+    14% {
+        border-radius: 0;
+    }
+
+    28% {
+        background: linear-gradient(66deg, #e38010, #1535bf);
+    }
+
+    42% {
+        transform: scale(1.5, 0.6);
+        transform: skew(10deg, 10deg);
+    }
+
+    56% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        background: linear-gradient(to right, #f00, #ffa500, #ff0, #008000, #00f, #4b0082, #ee82ee);
+    }
+
+    100% {
+        border-radius: 50%;
+    }
+}
