@@ -3,7 +3,7 @@
 import { deleteList } from './deleteList.js';
 
 export function addContextMenu(e, obj) {
-  if (!document.querySelector('.context')) {
+  if (!document.querySelector('.context') && e.currentTarget.id.slice(0, -5) === obj.title) {
     const ul = document.createElement('ul');
     const menu = document.getElementById(`${obj.title}_menu`);
     menu.appendChild(ul);

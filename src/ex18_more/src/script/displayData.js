@@ -9,6 +9,15 @@ export function displayData(obj) {
   let activeTasks = 0;
   let finishedTasks = 0;
 
+  if (obj.length === 0 && !document.querySelector('.massage')) {
+    const massage = document.createElement('div');
+    massage.setAttribute('class', 'massage');
+    massage.innerHTML = 'You do not have active task lists, to create use the Create new list function';
+    document.querySelector('.kanban').appendChild(massage);
+  } else if (obj.length !== 0 && document.querySelector('.massage')) {
+    document.querySelector('.massage').remove();
+  }
+
   document.querySelectorAll('.unit').forEach((item) => {
     item.remove();
   });
