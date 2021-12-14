@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0067a3;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.logo {
+    padding-left: 50px;
+    margin-right: auto;
+    background-image: url(https://i.ibb.co/s2Zb7YN/logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.create_new_list {
+    background-image: url(https://i.ibb.co/M93mR4p/add-list.png);
+    min-height: 33px;
+    min-width: 180px;
+    padding-left: 32px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.user_menu {
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://i.ibb.co/qBvrsT6/user-menu.png);
+    cursor: pointer;
+}
+
+.user_menu.active {
+    background-image: url(https://i.ibb.co/vHj0LCV/user-menu.png);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0067a3;
+    color: #FFFFFF;
+}
+
+.active_task {
+    margin: 0 25px 0 40px;
+}
+
+.finished_task {
+    margin-right: auto;
+}
+
+.kanban_board_by {
+    margin: 0 25px 0 0;
+}
+
+.userSubMenu {
+    position: absolute;
+    top: 90px;
+    right: 15px;
+    list-style: none;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.userSubMenu li:hover, .userSubMenu li:focus {
+    background: rgb(177, 193, 236);
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
