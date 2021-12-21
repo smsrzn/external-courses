@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0 12px 0 0;
+}
+
+.kanban_item {
+    box-sizing: border-box;
+    padding: 7px 9px 7px 8px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.kanban_item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.kanban_input, .kanban_select {
+    box-sizing: border-box;
+    padding: 7px 9px 7px 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 12px;
+    margin-top: 20px;
+}
