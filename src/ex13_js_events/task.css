@@ -1,0 +1,234 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0067a3;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.logo {
+    padding-left: 50px;
+    margin-right: auto;
+    background-image: url(https://i.ibb.co/s2Zb7YN/logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.create_new_list {
+    background-image: url(https://i.ibb.co/M93mR4p/add-list.png);
+    min-height: 33px;
+    min-width: 180px;
+    padding-left: 32px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.user_menu {
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://i.ibb.co/qBvrsT6/user-menu.png);
+    cursor: pointer;
+}
+
+.user_menu.active {
+    background-image: url(https://i.ibb.co/vHj0LCV/user-menu.png);
+}
+
+.main {
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    height: calc(100% - 125px);
+    background-color: #0079bf;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0067a3;
+    color: #FFFFFF;
+}
+
+.active_task {
+    margin: 0 25px 0 40px;
+}
+
+.finished_task {
+    margin-right: auto;
+}
+
+.kanban_board_by {
+    margin: 0 25px 0 0;
+}
+
+.userSubMenu {
+    position: absolute;
+    top: 90px;
+    right: 15px;
+    list-style: none;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.userSubMenu li:hover, .userSubMenu li:focus {
+    background: rgb(177, 193, 236);
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.kanban {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-height: 100%;
+    padding: 12px 0 12px 12px;
+    width: 282px;
+    background-color: #EBECF0;
+    border-radius: 10px;
+}
+
+.unit:not(:last-child) {
+    margin-right: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0;
+}
+
+.menu {
+    width: 16px;
+    height: 5px;
+    background-image: url(https://i.ibb.co/z5kTSXw/image.png);
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.scroll {
+    overflow-y: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0 12px 0 0;
+}
+
+.kanban_item {
+    box-sizing: border-box;
+    padding: 7px 9px 7px 8px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.kanban_item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.kanban_input, .kanban_select {
+    box-sizing: border-box;
+    padding: 7px 9px 7px 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 12px;
+    margin-top: 20px;
+}
+
+.add {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5E6C84;
+    background-image: url(https://i.ibb.co/qCbzDhz/add-card.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.add:hover {
+    cursor: pointer;
+    color: #0079bf;
+    background-image: url(https://i.ibb.co/txP4czd/add-card.png);
+}
+
+.add.disable {
+    cursor: default;
+    opacity: 0.3;
+}
+
+.add.disable:hover {
+    cursor: default;
+    opacity: 0.3;
+    color: #5E6C84;
+    background-image: url(https://i.ibb.co/qCbzDhz/add-card.png);
+}

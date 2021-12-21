@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0067a3;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}

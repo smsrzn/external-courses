@@ -1,0 +1,35 @@
+.user_menu {
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://i.ibb.co/qBvrsT6/user-menu.png);
+    cursor: pointer;
+}
+
+.user_menu.active {
+    background-image: url(https://i.ibb.co/vHj0LCV/user-menu.png);
+}
+
+.userSubMenu {
+    position: absolute;
+    top: 90px;
+    right: 15px;
+    list-style: none;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.userSubMenu li:hover, .userSubMenu li:focus {
+    background: rgb(177, 193, 236);
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
